@@ -8,7 +8,7 @@ body{
     font-family: sans-serif;
 }
 
-h1{
+h1 .logo{
     color: chocolate;
 }
 
@@ -30,7 +30,12 @@ ul{
     align-items: center;
 }
 
-a{
+.logotype {
+    color: chocolate;
+    text-decoration: none;
+}
+
+a {
     color: #fff;
     text-decoration: none;
 }
