@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Coffee</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar show-menu">
+        <div class="header ">
+            <h1 class="logo">Brew <span>Haven.</span></h1>
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>Produtos</li>
+                    <li>Sobre</li>
+                    <li>Contato</li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+            <div class="icons">
+                <img src="imagens/cart.png">
+                <img class="menu" src="imagens/menu.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="header-content">
+        <div class="side">
+            <div class="side-left">
+                <h2>No coração do Brew Haven está a busca incessante pela qualidade.</h2>
+                <p> Selecionamos cuidadosamente grãos de café provenientes de regiões renomadas, garantindo uma experiência única em cada gole. Nossos baristas são verdadeiros artistas, dedicados a criar obras-primas em cada xícara, desde o clássico espresso até as criações mais ousadas.</p>
+                <button>Degustar a parada &#8594</button>
+                
+            </div>
+            <div class="side-right">
+                <img src="imagens/mocapog.png" alt="">
+            </div>
+        </div>
+    </div>
+    <script>
+        const navbar = document.querySelector(".navbar");
+        const menuButton = document.querySelector(".menu");
+
+    menuButton.addEventListener("click", () => {
+        navbar.classList.toggle("show-menu");
+    });
+    </script>
+</body>
+</html>
