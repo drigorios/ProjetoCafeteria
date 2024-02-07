@@ -1,0 +1,186 @@
+:root {
+    --marrom: #5f3d2b;
+
+    --marromclaro:#754739;
+
+    --salmao:salmon;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  ::-webkit-scrollbar-track {
+    background: black;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #7e483d; 
+    border: 1px solid black;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #793535; 
+  }
+
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: var(--marrom);
+    
+
+}
+
+header {
+    background: black;
+    height: 80px;
+    color: white;
+}
+
+
+
+
+
+.page {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    color: #76453b;
+    background: white;
+    font-family: "lato", sans-serif;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    font-weight: 100;
+    padding: 150px;
+        box-shadow: 5px 5px 15px 5px #3d241c;
+
+}
+.page a{
+    color: var(--marrom);
+    width: 20px;
+    font-size: 50px;
+}
+.page a:hover {
+    color: white;
+    -webkit-text-stroke:2px
+    var(--marrom);
+}
+.titulopage {
+    font-size: 30px;
+
+}
+
+
+.titulo {
+    text-align: start;
+}
+
+
+
+.formcontainerlogin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+
+.formbox {
+    display: flex;
+    justify-content: center;
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    flex-direction: column;
+    color: #764538;
+    border: 1px solid #ffffff;
+    border-radius: 45px;
+    padding: 45px;
+    background: radial-gradient(circle at 180%, #793535, #ffffff);
+    border: 1px solid var(--marrom);
+    box-shadow: 5px 5px 15px 5px #311d17;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.forminputs {
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #764538;
+    margin-bottom: 10px;
+    color: var(--marrom);
+}
+
+.forminputs {
+    width: 400px;
+}
+
+#usericon{
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+
+
+
+
+.entrar {
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: var(--marrom)   ;
+    border: 1px solid #764538;
+    border-radius: 20px;
+    transition: all 0.1s ease-out 0s;
+    padding: 8px;
+    width: 200px;
+   cursor: pointer;
+    position: relative;
+    left: 100px;
+    top: 20px;
+    font-family: "Zen Kaku Gothic Antique", sans-serif;
+    font-weight: 500;
+
+}
+
+
+.entrar:hover {
+    color: var(--marrom);
+    background: transparent;
+}
+
+.formbox p,
+a {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.formbox a{
+    color: var(--marrom);
+}
+.formbox a:hover{
+    text-decoration: none;
+    border-bottom: 1px solid var(--marrom);
+}
+
+
+
+@media(max-widht:720px){
+    body{
+        display: flex;
+        flex-direction: column;
+        color: black;
+    }
+
+
+
+}
+    
