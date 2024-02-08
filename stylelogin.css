@@ -3,7 +3,6 @@
 
     --marromclaro:#754739;
 
-    --salmao:salmon;
 }
 
 html {
@@ -43,7 +42,7 @@ body{
     font-family: sans-serif;
 }
 
-h1{
+.logo{
     color: chocolate;
 }
 
@@ -149,7 +148,8 @@ li:hover{
 
 
 .titulo {
-    text-align: start;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 
@@ -203,7 +203,9 @@ form {
 }
 
 
-
+input[type="checkbox"]{
+    cursor: pointer;
+}
 
 
 .entrar {
@@ -226,6 +228,11 @@ form {
 }
 
 
+#naotem{
+    font-size: 13px;
+}
+
+
 .entrar:hover {
     color: var(--marrom);
     background: transparent;
@@ -239,6 +246,11 @@ a {
 
 .formbox a{
     color: var(--marrom);
+    font-weight: 700;
+
+
+    text-decoration: underline 1px;
+   
 }
 .formbox a:hover{
     text-decoration: none;
