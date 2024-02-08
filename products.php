@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="navbar.css">
 </head>
 <body>
-        <div class="navbar show-menu">
+<div class="navbar show-menu">
             <div class="header ">
                 <h1 class="logo"><a class="logotype" href="index.html">Brew <span>Haven.</span></a></h1>
                 <nav>
@@ -25,5 +25,6 @@
                 </div>
             </div>
         </div>
+        <h1 id="productmodify" >CAFÉS ESPECIAIS!</h1>
 </body>
 </html>
