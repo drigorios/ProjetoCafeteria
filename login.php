@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Tela de Registro</title>
+    <title>Login</title>
     <link rel="stylesheet" type="text/css" href="stylelogin.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,17 +17,18 @@
     />
   </head>
   <body>
+    <form action="dbconnectionlogin.php" method="post">
     <header>
       <div class="navbar show-menu">
         <div class="header">
             <h1 class="logo">Brew <span>Haven.</span></h1>
             <nav>
                 <ul>
-                    <li>Home</li>
-                    <li>Produtos</li>
+                    <li><a href="index.html"> Home </a></li>
+                    <li><a href="products.php">Produtos</a></li>
                     <li>Sobre</li>
                     <li>Contato</li>
-                    <li><a href="login.html">Login</a></li>
+                    <li><a href="login.php"> Login </a></li>
                 </ul>
             </nav>
             <div class="icons">
@@ -73,10 +74,11 @@
               <input type="submit" value="Entrar" class="entrar" />
               <p id="naotem">Não tem uma conta ainda? <a href="#">Registre-se</a>.</p>
             </form>
+           </div>
           </div>
         </div>
-      </div>
-    </main>
+      </main>
+    </form>
   </body>
 
 </html>

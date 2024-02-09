@@ -65,7 +65,7 @@ ul{
 }
 
 a {
-    color: chocolate;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -223,7 +223,7 @@ input[type="checkbox"]{
     transition: all 0.1s ease-out 0s;
     padding: 8px;
     width: 200px;
-   cursor: pointer;
+    cursor: pointer;
     position: relative;
     left: 100px;
     top: 20px;
@@ -265,11 +265,3 @@ a {
     text-decoration: none;
     border-bottom: 1px solid var(--marrom);
 }
-
-
-
-
-
-
-
-    
