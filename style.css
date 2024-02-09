@@ -174,9 +174,3 @@ li:hover{
         padding: 0.8rem;
     }
 }
-
-#productmodify {
-        display: flex;
-        color: aqua;
-        background-position-x: 200px;
-}
